@@ -1,0 +1,50 @@
+
+.redes {padding: 80px; display: flex; justify-content: space-between; background-color: black;}
+.icon {
+   
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    text-decoration: none;
+    padding: 20px;
+    transform: scale(1.5);
+    transition: all .5s;
+
+}
+
+
+.icon:hover {color: white;border-radius: 1rem 0 0 0 1rem;
+    box-shadow: 0 0 0 .5rem rgba(0, 0, 0, 0.42) ;}
+
+.icon-facebook:hover {
+    background-color: #2E406E;
+}
+
+.icon-youtube:hover { background-color: #c02f2f;}
+
+.icon-instagram {background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)}
+
+.icon-twitter:hover {background-color: #339dc5;}
+
+.icon-twitch:hover { background: linear-gradient(315deg, #9500ff,#9500ff, #4e36ff)}
+
+.icon-tiktok:hover {background-color: rgba(172, 171, 171, 0.24);}
+
+.icon-appleinc:hover {background-color:rgba(172, 171, 171, 0.24);}
+
+.icon-android:hover {background-color: #4ba330;}
+
+.icon:first-child {
+border-radius: 1rem 0 0 0 0;
+}
+.icon:last-child { border-radius: 0 0 0 0 1rem ;
+}
+.foto {position: relative;}
+
+footer {background-color: black;padding: 70px; }
+
+.lista {display: flex; justify-content: space-around;
+}
+
+.lista1 {display: flex ;text-decoration: none; color: white;}
+
